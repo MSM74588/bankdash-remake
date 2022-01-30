@@ -124,6 +124,7 @@ BankDash 2.0 => [BankDash_2.0](https://mandrasaptak.tech)
 - [ ] Front-end => Svelte and Tailwind
 - [ ] Backend => Appsmith Supabase
 - [ ] Dataset
+- [ ] Responsive design
 
 ### Pages
 - [ ] Login
