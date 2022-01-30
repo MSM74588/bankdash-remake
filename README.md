@@ -18,15 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-[https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white][https://github.com/MSM74588]
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -47,34 +38,17 @@
     <a href="https://mandrasaptak.tech">Manage Backend (Appsmith)</a>
   </p>
 </div>
+<div align="center">
+    <a href="https://github.com/MSM74588"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"></a>
+    <a href="#"><img src="http://unmaintained.tech/badge.svg"></a>
+    <a href="#"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"></a>
+    <br />
+    <a href="#"><img src="https://uploads-ssl.webflow.com/61531b23c347e4fbd4a84209/61531b23c347e41e24a8423e_Logo.svg"></a>
 
+</div>
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 
 
