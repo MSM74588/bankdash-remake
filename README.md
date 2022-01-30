@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="https://cdn-icons.flaticon.com/png/512/3417/premium/3417892.png?token=exp=1643520398~hmac=829ae3af6cacda0786302899fd2f37fc" alt="Logo" width="80" height="80">
+    <img src="https://cdn-icons.flaticon.com/png/512/3417/premium/3417892.png?token=exp=1643520398~hmac=829ae3af6cacda0786302899fd2f37fc" alt="Logo" width="110" height="110">
   </a>
 
   <h3 align="center">BankDash 2.0</h3>
@@ -42,11 +42,12 @@
     <a href="https://github.com/MSM74588"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
     <a href="#"><img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00"></a>
     <a href="#"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"></a>
-    <a href="#"><img src="http://unmaintained.tech/badge.svg"></a>
     <a href="#"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"></a>
     <br />
+    <br />
     <a href="#"><img src="https://uploads-ssl.webflow.com/61531b23c347e4fbd4a84209/61531b23c347e41e24a8423e_Logo.svg"></a>
-
+    <br />
+    <a href="#"><img src="http://unmaintained.tech/badge.svg"></a>
 </div>
 
 
