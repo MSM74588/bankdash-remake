@@ -1,5 +1,5 @@
 <main>
-    <div class="p-5 mb-2 bg-red-200 rounded">
+    <div class="p-5 bg-[#bbc5da7e] rounded border border-slate-300">
         <h1>Hello</h1>
     </div>
     <!-- Use flex to postion side by side cells -->
