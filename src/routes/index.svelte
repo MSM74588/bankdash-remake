@@ -1,41 +1,78 @@
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<script>
+	let showText = false;
+	// let logosrc = "/logo.png"
+	import Left from '$lib/components/main/left.svelte';
+	import Listarea from '$lib/components/main/listarea.svelte';
+</script>
 
-  <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-indigo-600">
-    <div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between flex-wrap">
-        <div class="w-0 flex-1 flex items-center">
-          <span class="flex p-2 rounded-lg bg-indigo-800">
-            <!-- Heroicon name: outline/speakerphone -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-            </svg>
-          </span>
-          <p class="ml-3 font-medium text-white truncate">
-            <span class="md:hidden">
-              We announced a new product!
-            </span>
-            <span class="hidden md:inline">
-              Big news! We're excited to announce a brand new product.
-            </span>
-          </p>
-        </div>
-        <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-          <a href="#" class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50">
-            Learn more
-          </a>
-        </div>
-        <div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
-          <button type="button" class="-mr-1 flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2">
-            <span class="sr-only">Dismiss</span>
-            <!-- Heroicon name: outline/x -->
-            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+<main>
+	{#if showText}
+		<h1 class="text-4xl">Show text</h1>
+	{/if}
+
+	<div class="h-screen w-screen">
+		<div class="w-full h-full grid-container">
+			<div class="left px-10 left-gradient">
+				<Left
+					logosrc="https://cdn-icons.flaticon.com/png/512/3398/premium/3398073.png?token=exp=1643595026~hmac=8f97958086e7c1a7072fb5f6b4d9b484"
+				/>
+				<!-- <Left logosrc="https://cdn-icons-png.flaticon.com/512/2830/2830284.png"/> -->
+			</div>
+			<div class="main bg-stone-300 ">
+			<!-- <div class="main bg-stone-300 relative max-h-full overflow-y-scroll"> -->
+				<!-- something -->
+				<!-- <div class="bg-animation  min-h-full min-w-full overflow-hidden absolute blur-3xl">
+					<div class="h-full">
+						<div class="absolute top-20 -left-4 w-96 h-96 bg-purple-300 rounded-full"></div>
+						<div class="absolute top-20 -right-4 w-96 h-96 bg-yellow-300 rounded-full"></div>
+						<div class="absolute -bottom-20 left-40 w-96 h-96 bg-pink-300 rounded-full"></div>
+					</div>
+				</div> -->
+
+				<div class="p-4 relative "> 
+					<Listarea />
+				</div>
+
+<!--  max-h-[calc(100%-60px)]  -->
+
+
+			</div>
+			<div class="right bg-stone-400">
+				<!-- Something -->
+			</div>
+		</div>
+	</div>
+</main>
+
+<style scoped>
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 3fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 0px 0px;
+		grid-auto-flow: row;
+		grid-template-areas: 'left main right';
+
+		max-height: 100vh;
+	}
+
+	.left {
+		grid-area: left;
+	}
+
+	.right {
+		grid-area: right;
+	}
+
+	.main {
+		grid-area: main;
+	}
+
+	.left-gradient {
+		/* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+		background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+		/* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+		/* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
+		/* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+	}
+</style>

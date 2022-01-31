@@ -51,12 +51,11 @@
 </div>
 
 
-
+## Notes
+- [Deploy to Netlify instructions](https://dev.to/danawoodman/deploying-a-sveltekit-app-to-netlify-5dc3)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Remade Bank-server project [Bank-Server](https://school-team-12.github.io/Bank-server/front-end/)
 
