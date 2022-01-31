@@ -1,5 +1,17 @@
 <script>
+    // import VirtualList from '@sveltejs/svelte-virtual-list';
+
     import Listitem from "../listitem.svelte";
+    import { onMount } from 'svelte';
+    let users = []
+
+    onMount(async() => {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users')
+        users = await response.json()
+        console.log(users)
+    })
+
+//    TASK: Setup pagination
 </script>
 
 <main>
@@ -31,13 +43,24 @@
         </div>
         <div class="bg-[#ffffffab] px-5 pt-5 pb-7  rounded-b-md max-h-[87vh] overflow-y-auto flex flex-col gap-y-2 ">
           
+            <!-- <Listitem />
             <Listitem />
             <Listitem />
             <Listitem />
             <Listitem />
             <Listitem />
-            <Listitem />
-            <Listitem />
+            <Listitem /> -->
+
+            <!-- <VirtualList items={users} let:user >
+                <Listitem name={user.name} />
+              </VirtualList> -->
+
+              {#each users as user (user.id)}
+                <Listitem name={user.name} />
+                {:else}
+                <Listitem name="Loading..." />
+              {/each}
+              
         </div>
        </div>
     </div>

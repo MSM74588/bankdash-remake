@@ -4,6 +4,8 @@
 	import Left from '$lib/components/main/left.svelte';
 	import Listarea from '$lib/components/main/listarea.svelte';
 	import Rightpanel from '$lib/components/main/rightpanel.svelte';
+
+	let storeUserName = "MSM"
 </script>
 
 <main>
