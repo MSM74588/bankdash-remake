@@ -15,7 +15,9 @@
 </script>
 
 <main>
-    <div class="p-5 bg-[#bbc5da7e] rounded border border-slate-300" on:click="{updateUser}">
+    <div class="p-5 bg-[#bbc5da7e] rounded border border-slate-300 hover:shadow-md   
+    hover:ring hover:ring-inset active:ring-2  active:ring-slate-400 active:ring-inset hover:cursor-pointer active:bg-[#9fa9b97e]
+    " on:click="{updateUser}">
         <h1>{name}</h1>
     </div>
     <!-- Use flex to postion side by side cells -->
