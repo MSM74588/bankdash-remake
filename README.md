@@ -121,7 +121,7 @@ BankDash 2.0 => [BankDash_2.0](https://mandrasaptak.tech)
 ## Roadmap
 
 - [ ] Front-end => Svelte and Tailwind
-- [ ] Backend => Appsmith Supabase
+- [ ] Backend => Appsmith, Xano
 - [ ] Dataset
 - [ ] Responsive design
 
